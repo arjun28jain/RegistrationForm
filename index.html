@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORM</title>
+</head>
+<body>
+         <div class="container">
+            <form method="post" action="" name="contact-form">
+                <div style="display: flex; flex-direction: row;"> 
+                    <img src="logo.png" height="40px" width="40px" style="position: relative; left: -8px;"> 
+                    <span style="color: rgb(214, 156, 41); font-size: small; text-decoration:double; position: relative; top: 14px; left: -8px;"> Team HORIZON</span>
+                </div>
+
+                <h4> WILDCARD REGISTRATION </h4> <br>
+               
+                <input type="text" name="your-name" placeholder="Name" style="height: 14px; width: 300px;">
+                <input type="text" name="your-number" placeholder="Number" style="height: 14px; width: 300px;">
+                <input type="email" name="your-email" placeholder="Email" style="height: 14px; width: 300px;">
+                <textarea name="message" rows="3" placeholder="Your Description"></textarea>
+
+               <div style="display: flex; flex-direction: row;"> <h2 style="color: rgb(255, 255, 255); text-decoration-line: underline; margin: 10px;" >DOMAINS</h2>
+                <span style="color: rgb(139, 165, 188); font-size:x-small; position: relative; top: 14px;">[May select more than one]</span>
+               </div>
+
+                <input type="checkbox" name="oratory" id="oratory" style="height: 13px; width: 13px;">
+                <label for="oratory" style="color: rgb(214, 156, 41); font-size: small;"> ORATORY</label><br>
+                <input type="checkbox" name="writing" id="writing" style="height: 13px; width: 13px;">
+                <label for="writing" style="color: rgb(214, 156, 41); font-size: small;"> WRITING</label><br>
+                <input type="checkbox" name="design" id="design" style="height: 13px; width: 13px;">
+                <label for="design" style="color: rgb(214, 156, 41); font-size: small;"> DESIGNING</label><br>
+                <input type="checkbox" name="art" id="art" style="height: 13px; width: 13px;">
+                <label for="art" style="color: rgb(214, 156, 41); font-size: small;"> ART </label><br>
+                
+                <input type="submit" value="submit" id="submit">
+         </div>
+
+         <script src="sheet.js"></script>
+</body> 
+</html>
